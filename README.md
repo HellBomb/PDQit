@@ -25,7 +25,7 @@ My Preferred Settings
 
   Triggers: 
   
-    Interval (Every 1 hour starting at 1/1/2000 12:00 AM)
+\     Interval (Every 1 hour starting at 1/1/2000 12:00 AM)
 
   Options:
     Schedule Enabled: Yes (Checked)
