@@ -12,7 +12,7 @@ I will be keeping this repo up to date with the latest versions of my PDQ Packag
 
 
 ### Create Active Directory Groups
-Individual security groups need to be made for every application package you want automatically deployed, then simply add each of the computers to that group. 
+Individual security groups need to be made for every application package you want automatically deployed, then simply add each of the computers to that group.  
 
 Sources:
 &ensp;&ensp; (1) How to create a group account: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-a-group-account-in-active-directory
@@ -21,7 +21,7 @@ Sources:
 ### Create Package Schedules
 Once all packages have been created or imported a schedule needs to be created and attached to automate the deployment. Create a new schedule, set the desired trigger schedule, then for the target LINK to the PDQ Inventory Collection for the package application. 
 
-My Preferred Settings
+My Preferred Settings  
 
 &ensp;&ensp; Triggers:  
 &ensp;&ensp;&ensp;&ensp; Interval (Every 1 hour starting at 1/1/2000 12:00 AM)  
@@ -36,18 +36,18 @@ My Preferred Settings
 &ensp;&ensp;&ensp;&ensp; Stop deploying to targets if they fail xx time(s): Yes (Checked), 1 time [1]  
 &ensp;&ensp;&ensp;&ensp; Stop deploying to remaining queued targets after xx minutes: yes (Checked), 30 [2]  
 
-&ensp;&ensp; Offline Settings
-&ensp;&ensp;&ensp;&ensp; Offline Status
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Use settings from package(s): Yes (Checked)
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Ping before deployment: Yes (Checked)
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Send Wake-on-LAN and attempt deployment: Yes (Checked)
-&ensp;&ensp;&ensp;&ensp; Retry Queue
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Use settings from package(s): Yes (Checked)
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Put offline targets in Retry Queue: No (Uncecked) [3]
+&ensp;&ensp; Offline Settings  
+&ensp;&ensp;&ensp;&ensp; Offline Status  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Use settings from package(s): Yes (Checked)  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Ping before deployment: Yes (Checked)  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Send Wake-on-LAN and attempt deployment: Yes (Checked)  
+&ensp;&ensp;&ensp;&ensp; Retry Queue  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Use settings from package(s): Yes (Checked)  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Put offline targets in Retry Queue: No (Uncecked) [3]  
 
-Reasoning & Justification
-&ensp;&ensp; [1] A schedule will not trigger again until it has completed successfully so if a few computers are failing over and over again new computers that need the application will not get it until the schedule completes.
-&ensp;&ensp; [2][3] Essentially the same as [1], you just want to keep the schedule triggering as desired.
+Reasoning & Justification  
+&ensp;&ensp; [1] A schedule will not trigger again until it has completed successfully so if a few computers are failing over and over again new computers that need the application will not get it until the schedule completes.  
+&ensp;&ensp; [2][3] Essentially the same as [1], you just want to keep the schedule triggering as desired.  
   
-Sources:
+Sources:  
 &ensp;&ensp; (1) Create Schedules: https://documentation.pdq.com/PDQDeploy/13.0.3.0/index.html?manage-schedules.htm
