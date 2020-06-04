@@ -14,9 +14,9 @@ I will be keeping this repo up to date with the latest versions of my PDQ Packag
 ### Create Active Directory Groups
 Individual security groups need to be made for every application package you want automatically deployed, then simply add each of the computers to that group.  
 
-Sources:
-&ensp;&ensp; (1) How to create a group account: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-a-group-account-in-active-directory
-&ensp;&ensp; (1) Understanding different AD groups: https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups
+Sources:  
+&ensp;&ensp; (1) How to create a group account: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-a-group-account-in-active-directory  
+&ensp;&ensp; (1) Understanding different AD groups: https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups  
 
 ### Create Package Schedules
 Once all packages have been created or imported a schedule needs to be created and attached to automate the deployment. Create a new schedule, set the desired trigger schedule, then for the target LINK to the PDQ Inventory Collection for the package application. 
