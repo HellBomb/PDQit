@@ -23,15 +23,15 @@ Once all packages have been created or imported a schedule needs to be created a
 
 My Preferred Settings
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Triggers:
+&ensp;Triggers:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interval (Every 1 hour starting at 1/1/2000 12:00 AM)
+&ensp;&ensp;Interval (Every 1 hour starting at 1/1/2000 12:00 AM)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Options:
+&ensp;Options:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schedule Enabled: Yes (Checked)
+&ensp;&ensp;Schedule Enabled: Yes (Checked)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Credentials: (Default)
+&ensp;&ensp;Credentials: (Default)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use PDQ Inventory Scan User credentials first, when available: No (Unchecked)
 
