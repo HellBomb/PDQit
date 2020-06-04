@@ -23,9 +23,8 @@ Once all packages have been created or imported a schedule needs to be created a
 
 My Preferred Settings
 
-  Triggers: 
-  
-\     Interval (Every 1 hour starting at 1/1/2000 12:00 AM)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Triggers: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interval (Every 1 hour starting at 1/1/2000 12:00 AM)
 
   Options:
     Schedule Enabled: Yes (Checked)
