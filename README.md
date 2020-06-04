@@ -31,8 +31,7 @@ My Preferred Settings
 
 &ensp;&ensp;Schedule Enabled: Yes (Checked)  
 
-&ensp;&ensp;Credentials: (Default)
-
+&ensp;&ensp;Credentials: (Default)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use PDQ Inventory Scan User credentials first, when available: No (Unchecked)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Run As: (use package settings)(varies)
     
