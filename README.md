@@ -23,7 +23,7 @@ Once all packages have been created or imported a schedule needs to be created a
 
 My Preferred Settings
 
-&ensp;Triggers:\
+&ensp;Triggers:<br/>
 
 &ensp;&ensp;Interval (Every 1 hour starting at 1/1/2000 12:00 AM)\
 
