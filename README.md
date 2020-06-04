@@ -21,8 +21,7 @@ Sources:
 ### Create Package Schedules
 Once all packages have been created or imported a schedule needs to be created and attached to automate the deployment. Create a new schedule, set the desired trigger schedule, then for the target LINK to the PDQ Inventory Collection for the package application. 
 
-My Preferred Settings  
-
+#### My Preferred Settings
 &ensp;&ensp; Triggers:  
 &ensp;&ensp;&ensp;&ensp; Interval (Every 1 hour starting at 1/1/2000 12:00 AM)  
 
