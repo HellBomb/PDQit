@@ -23,18 +23,28 @@ Once all packages have been created or imported a schedule needs to be created a
 
 My Preferred Settings
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Triggers: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Triggers:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interval (Every 1 hour starting at 1/1/2000 12:00 AM)
 
-  Options:
-    Schedule Enabled: Yes (Checked)
-    Credentials: (Default)
-    Use PDQ Inventory Scan User credentials first, when available: No (Unchecked)
-    Run As: (use package settings)(varies)
-    Notifications: 
-    Stop deploying to targets once they succeed: Yes (Checked)
-    Stop deploying to targets if they fail xx time(s): Yes (Checked), 1 time [1]
-    Stop deploying to remaining queued targets after xx minutes: yes (Checked), 30 [2]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Options:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schedule Enabled: Yes (Checked)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Credentials: (Default)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use PDQ Inventory Scan User credentials first, when available: No (Unchecked)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Run As: (use package settings)(varies)
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notifications: 
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stop deploying to targets once they succeed: Yes (Checked)
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stop deploying to targets if they fail xx time(s): Yes (Checked), 1 time [1]
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stop deploying to remaining queued targets after xx minutes: yes (Checked), 30 [2]
+    
 
   Offline Settings
     Offline Status
