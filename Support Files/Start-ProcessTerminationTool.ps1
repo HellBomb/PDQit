@@ -48,9 +48,13 @@ ForEach ($Process in ($Running1,$Running2)) {
             }
         }
     }
+    Remove-Variable -Name Process -ErrorAction SilentlyContinue -Force
 }
+
 if ($ErrorCount -eq 0) {
+    Remove-Variable -Name @("Processes","Running1","Running2","ProgramDirs","Programs","ErrorCount") -ErrorAction SilentlyContinue -Force
     Exit 0
 } Else {
+    Remove-Variable -Name @("Processes","Running1","Running2","ProgramDirs","Programs","ErrorCount") -ErrorAction SilentlyContinue -Force
     Exit 1
 }
