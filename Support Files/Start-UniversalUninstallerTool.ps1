@@ -34,7 +34,7 @@ Updates Available at:
 
 # Don't Edit Below this line
 ###############################################################################################################################
-[Bool]$Debug = $True
+[Bool]$Debug = $False
 
 #Variable Validation; Ensure all required variables are configured.
 If ([String]::IsNullOrEmpty($Search)) { Write-Output "[Error] 'Search' variable is empty."; Exit 1 }
